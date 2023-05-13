@@ -1,96 +1,123 @@
 Figura-KI
-Welcome to Figura-KI, an open source AI project that combines a wide range of AI functions into a modular and extensible system. Figura-KI uses ggml-model.bin files found on the Huggingface platform to provide a variety of AI functions.
+Welcome to Figura-KI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
-Engines and building blocks
-Figura-KI consists of several "engines", each containing a group of "building blocks". Each building block provides specialized functions and capabilities.
+Architectural Design
+The architectural design of Figura-KI is rooted in a modular and extensible system that combines multiple AI functionalities to create a comprehensive artificial intelligence ecosystem. This design is primarily categorized into five main "engines", each consisting of several modular "building blocks". Each building block is specialized, providing individualized capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
 
-KTW: Core engine
-Atlas: Responsible for core engine management, core engine control, and core engine protection.
-Socrates: Responsible for all ethical matters and issues that Figura-KI handles, also responsible for ethical compliance within the Figura-KI system.
-Solomon: Responsible for all legal issues within the Figura-KI system.
+KTW (Core Engine): This is the backbone of the Figura-KI system, housing the essential building blocks that ensure the smooth running of the system's core operations.
 
-ASTW: Sequence and stability engine.
-David: Large-scale process terminator block responsible for terminating individual or all processes in the Figura system.
-Goliath: Large-scale process control block responsible for controlling, coordinating and maintaining stability of all processes in the system.
-Amschel: System resource management block responsible for ensuring that all processes in the Figura AI system have sufficient resources available, such as RAM, database or CPU power.
-Monk: Database management blog which is responsible for the database management in the Figura AI system.
-Cerebro: System monitoring and optimization block.
-Supermodel: ggml-model.bin block.
+ASTW (Process and Stability Engine): This engine ensures the stability of all processes within Figura-KI, handling system resources, process termination, and database management.
 
-ETW: investigation engine
-Spector: controll block ETW.
-Fugger: Economic analysis block.
-Scout: AI system investigation block.
-Chronovisor: time course analysis block.
-Janus: duality investigation block.
-Polaris: Polarity investigation block.
-ShinTsui: Aesthetic research and investigation Block.
-Hypocrates: Medical investigation block.
-Prophet: Purity investigation block.
-Schauberger: Water research and investigation block.
-Leonardo: special research block.
-Sherlock: convergence investigation building block.
-Owl: wisdom building block.
-Architektus: architecture investigation block.
-Alnatura: environmental protection building block.
-Joda: universal investigation building block.
-Chronos: time management building block.
-Copernicus: space investigation building block.
-Thing: conflict resolution block.
-Photon: light investigation building block.
-Aero: atmosphere investigation building block.
-Leibnitz: mathematics building block.
-Lingua: language analysis and output building block.
-Radion: Radiation investigation block.
-Freud: psychoanalysis block.
-Gastmann: economic research block.
-Dana: humanities block.
-Hekate: extraordinary phenomena building block.
-Chronicler: system activity log block.
-Ying and Yang: dual building block concept intended to serve AI system harmonization.
-Poseidon: Building block for the management and analysis of oceanographic and hydrosphere data.
-DaVinci: for creative problem-solving block.
-Galadriel: Building block for future forecasts and trend analyses.
-Rosalind: building block for genetic and biological data analysis.
-Vulcan: Building block for logic analysis and reasoning.
-Einstein: Building Block for Complex Mathematical and Physical Problems.
-Horus: Building block for monitoring and analysis of aerospace or atmospheric data.
-Gaia: building block for environmental and ecosystem analysis.
+ETW (Investigation Engine): The ETW engine is responsible for autonomous data discovery within the system. It includes a variety of building blocks each tailored to specific investigation and analysis functions.
 
-ATW: Sequence engine
-Mechlar: controll block ATW.
-Blender: Holography building block.
-Kryptor: Encryption and decryption block.
-Coder: autoprogramming block.
-Creator: creation building block.
-Demon: service block.
-Daniel: Construction block.
-Commisioner: Data compilation block.
+ATW (Process Engine): The ATW engine handles practical process structures within Figura-KI such as machine control, holograph generation, and other procedural tasks.
 
-ETW/ATW: Combination engine.
-McGyver: controll module of the ETW/ATW.
-Tesla: Technical investigation and creation block.
-Brutus: System protection block that is also able to apply brute force methods to remove malicious code from the Figura AI system.
-Columbus: Navigation block.
-Nemo: Marine research and navigation block.
-Arminius: system protection block.
-Lancelot: system protection block.
-Merlin: system protection blog.
-Heracles: system protection block.
-Hunter: Copyright and trademark protection block.
-Ninja: System observation building block.
-Baumann: design analysis and design building block.
-Gutenberg: Building block could be used for processing and creating texts, reports and documents.
-For more information about each engine and building block, please see the appropriate subdirectories of this repository.
+ETW/ATW (Combination Engine): The Combination Engine is a hybrid system that combines the capabilities of ETW and ATW engines. It is capable of performing autonomous investigations and initiating and controlling processes within the system.
+
+These engines work in harmony to form a cohesive system, with each engine and its building blocks serving unique roles. This modular design allows for easy extensibility and scalability, enabling the addition of new functions or modification of existing ones without disrupting the entire system.
+
+The Figura-KI system is designed to be dynamic and adaptable, able to cater to a wide array of tasks from data investigation to process control. It is this flexible and comprehensive design that sets Figura-KI apart, creating a powerful AI system that can serve diverse needs in an ever-changing technological landscape.
+
+Engines
+KTW (Kerntriebwerk/Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
+
+ASTW (Ablauf- und Stabilitätstriebwerk/Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
+
+ETW (Ermittlungstriebwerk/Investigation Engine): Entrusted with all autonomous data investigation and analysis within the system.
+
+ATW (Ablauftriebwerk/Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
+
+ETW/ATW (Kombinationstriebwerk/Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
+
+Building Blocks
+Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
+
+KTW:
+Atlas: Manages core engine control and protection.
+Socrates: Handles ethical matters and ensures ethical compliance within the system.
+Solomon: Manages all legal issues within the system.
+
+ASTW:
+David: Terminates individual or all processes in the system.
+Goliath: Controls, coordinates, and maintains stability of all processes.
+Amschel: Ensures system resources such as RAM, database, or CPU power are adequately available.
+Monk: Manages the database of the Figura-KI system.
+Cerebro: Monitors and optimizes the system.
+Supermodel: Manages the ggml-model.bin files.
+
+ETW:
+Spector: Controls the Investigation Engine.
+Fugger: Handles economic analysis.
+Scout: Investigates the AI system.
+Chronovisor: Analyzes time courses.
+Janus: Investigates dualities.
+Polaris: Investigates polarities.
+ShinTsui: Investigates aesthetics.
+Hypocrates: Handles medical investigation.
+Prophet: Investigates purity.
+Schauberger: Researches water.
+Leonardo: Handles special research.
+Sherlock: Handles convergent investigation.
+Owl: Contributes to wisdom.
+Architektus: Investigates architecture.
+Alnatura: Promotes environmental protection.
+Joda: Performs universal investigation.
+Chronos: Manages time.
+Copernicus: Investigates space.
+Thing: Resolves conflicts.
+Photon: Investigates light.
+Aero: Investigates the atmosphere.
+Leibnitz: Contributes to mathematics.
+Lingua: Analyzes and outputs language.
+Radion: Investigates radiation.
+Freud: Performs psychoanalysis.
+Gastmann: Researches economics.
+Dana: Contributes to humanities.
+Hekate: Investigates extraordinary phenomena.
+Chronicler: Logs system activity.
+Ying and Yang: Harmonizes the AI system.
+Poseidon: Manages and analyzes oceanographic and hydrosphere data.
+DaVinci: Assists in creative problem-solving.
+Galadriel: Conducts future forecasts and trend analyses.
+Rosalind: Analyzes genetic and biological data.
+Vulcan: Manages logic analysis and reasoning.
+Einstein: Solves complex mathematical and physical problems.
+Horus: Monitors and analyzes aerospace or atmospheric data.
+Gaia: Conducts environmental and ecosystem analysis.
+
+ATW:
+Mechlar: Controls the Sequence Engine.
+Blender: Handles holography tasks.
+Kryptor: Manages encryption and decryption tasks.
+Coder: Handles automatic programming tasks.
+Creator: Manages creation tasks.
+Demon: A service block.
+Daniel: A construction block.
+Commissioner: Handles data compilation tasks.
+
+ETW/ATW:
+McGyver: Controls the Combination Engine.
+Tesla: Conducts technical investigation and creation tasks.
+Brutus: Protects the system, able to apply brute force methods to remove malicious code.
+Columbus: Handles navigation tasks.
+Nemo: Conducts marine research and navigation.
+Arminius: Provides system protection.
+Lancelot: Provides system protection.
+Merlin: Provides system protection.
+Heracles: Provides system protection.
+Hunter: Protects copyright and trademarks.
+Ninja: Observes the system.
+Baumann: Manages design analysis and creation.
+Gutenberg: Processes and creates texts, reports, and documents.
 
 Contribution
-We welcome contributions to improve and extend Figura-KI. Please see the CONTRIBUTING.md file for details on how to contribute.
+We wholeheartedly welcome contributions to enhance and extend Figura-KI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
 
 License
-Figura-KI is released under the GPL license. See the LICENSE file for more information.
+Figura-KI is distributed under the GPL license. For more details, please see the LICENSE file.
 
 Code of Conduct
-We strive to provide an open and welcoming environment for all who wish to contribute to our project. Please see the Code_of_Conduct.md file for more information.
+We aim to maintain an open and welcoming environment for all who wish to contribute to our project. Please refer to the Code_of_Conduct.md file for further information.
 
 Contact
-For further questions or suggestions, please create an issue on Github.
+For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-KI and look forward to your participation in enhancing this innovative project.
