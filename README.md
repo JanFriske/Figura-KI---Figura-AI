@@ -106,7 +106,7 @@ Freud: Performs psychoanalysis.
 Gastmann: Researches economics.
 Dana: Contributes to humanities.
 Hekate: Investigates extraordinary phenomena.
-Chronicler: Logs system activity.
+Chronist: Logs system activity.
 Ying and Yang: Harmonizes the AI system.
 Poseidon: Manages and analyzes oceanographic and hydrosphere data.
 DaVinci: Assists in creative problem-solving.
