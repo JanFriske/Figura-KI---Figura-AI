@@ -1,4 +1,5 @@
 Figura-KI
+
 Welcome to Figura-KI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
 Architectural Design
