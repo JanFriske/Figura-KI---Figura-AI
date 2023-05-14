@@ -77,9 +77,12 @@ SASE:
 David: Terminates individual or all processes in the system.
 Goliath: Controls, coordinates, and maintains stability of all processes.
 Amschel: Ensures system resources such as RAM, database, or CPU power are adequately available.
-Monk: Manages the database of the Figura-KI system.
+Monk: The block Monk is responsible for database management, ensuring data access and organization is seamless.
+Hermes: This block manages Figura-AI block communication System
+Kryptor: This block manages block communikation and database Encryption and decryption.
 Cerebro: Monitors and optimizes the system.
 Supermodel: Manages the ggml-model.bin files.
+Commissioner: Handles data compilation tasks.
 
 IE:
 Spector: Controls the Investigation Engine.
@@ -124,12 +127,10 @@ Gaia: Conducts environmental and ecosystem analysis.
 SE:
 Mechlar: Controls the Sequence Engine.
 Blender: Handles holography tasks.
-Kryptor: Manages encryption and decryption tasks.
 Coder: Handles automatic programming tasks.
 Creator: Manages creation tasks.
 Demon: A service block.
 Daniel: A construction block.
-Commissioner: Handles data compilation tasks.
 
 IE/SE:
 McGyver: Controls the Combination Engine.
