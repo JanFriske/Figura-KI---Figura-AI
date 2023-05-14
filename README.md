@@ -1,4 +1,4 @@
-Figura-AI
+**Figura-AI**
 
 Welcome to Figura-AI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
@@ -52,7 +52,7 @@ Moreover, the use of Mojo aligns with Figura-AI's objective of user-friendliness
 
 In summary, the integration of Mojo in Figura-AI's architectural design greatly contributes to its modularity, flexibility, and user-friendliness. It facilitates the dynamic, efficient, and robust operation of the system, while also enabling a high degree of customization and adaptability. This makes Figura-AI not only a powerful AI tool but also one that is easy to use, understand, and modify according to the specific needs of its users.
 
-Engines
+**Engines**
 
 CE (Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
 
@@ -64,7 +64,7 @@ SE (Sequence Engine): Manages practical execution tasks such as machine control,
 
 IE/SE (Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
 
-Building Blocks
+**Building Blocks**
 
 Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
 
@@ -146,18 +146,18 @@ Ninja: Observes the system.
 Baumann: Manages design analysis and creation.
 Gutenberg: Processes and creates texts, reports, and documents.
 
-Contribution
+**Contribution**
 
 We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
 
-License
+**License**
 
 Figura-AI is distributed under the GPL license. For more details, please see the LICENSE file.
 
-Code of Conduct
+**Code of Conduct**
 
 We aim to maintain an open and welcoming environment for all who wish to contribute to our project. Please refer to the Code_of_Conduct.md file for further information.
 
-Contact
+**Contact**
 
 For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-AI and look forward to your participation in enhancing this innovative project.
