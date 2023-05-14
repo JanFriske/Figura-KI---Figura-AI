@@ -154,7 +154,7 @@ Thing: Resolves conflicts.
 
 Photon: Investigates light.
 
-Aero: Investigates the atmosphere.
+Aero: Study and evaluation of airspace and air traffic.
 
 Leibnitz: Contributes to mathematics.
 
