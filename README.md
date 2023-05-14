@@ -2,6 +2,7 @@
 
 Welcome to Figura-AI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
+
 **Architectural Design**
 
 Figura-AI is an open-source AI project that is built around a modular and extensible system. It combines a wide range of AI functions into an integrated, comprehensive artificial intelligence ecosystem. The design is primarily divided into five main "engines", each composed of several modular "building blocks". Each building block is specialized, providing individual capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
@@ -52,6 +53,7 @@ Moreover, the use of Mojo aligns with Figura-AI's objective of user-friendliness
 
 In summary, the integration of Mojo in Figura-AI's architectural design greatly contributes to its modularity, flexibility, and user-friendliness. It facilitates the dynamic, efficient, and robust operation of the system, while also enabling a high degree of customization and adaptability. This makes Figura-AI not only a powerful AI tool but also one that is easy to use, understand, and modify according to the specific needs of its users.
 
+
 **Engines**
 
 CE (Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
@@ -63,6 +65,7 @@ IE (Investigation Engine): Entrusted with all autonomous data investigation and 
 SE (Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
 
 IE/SE (Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
+
 
 **Building Blocks**
 
@@ -147,18 +150,23 @@ Ninja: Observes the system.
 Baumann: Manages design analysis and creation.
 Gutenberg: Processes and creates texts, reports, and documents.
 
+
 **Contribution**
 
 We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
+
 
 **License**
 
 Figura-AI is distributed under the GPL license. For more details, please see the LICENSE file.
 
+
 **Code of Conduct**
 
 We aim to maintain an open and welcoming environment for all who wish to contribute to our project. Please refer to the Code_of_Conduct.md file for further information.
 
+
 **Contact**
 
 For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-AI and look forward to your participation in enhancing this innovative project.
+
