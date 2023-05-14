@@ -86,6 +86,11 @@ Kryptor: This block manages block communikation and database Encryption and decr
 Cerebro: Monitors and optimizes the system.
 Supermodel: Manages the ggml-model.bin files.
 Commissioner: Handles data compilation tasks.
+Brutus: Protects the system, able to apply brute force methods to remove malicious code.
+Arminius: Provides system protection.
+Lancelot: Provides system protection.
+Merlin: Provides system protection.
+Heracles: Provides system protection.
 
 IE:
 Spector: Controls the Investigation Engine.
@@ -138,13 +143,8 @@ Daniel: A construction block.
 IE/SE:
 McGyver: Controls the Combination Engine.
 Tesla: Conducts technical investigation and creation tasks.
-Brutus: Protects the system, able to apply brute force methods to remove malicious code.
 Columbus: Handles navigation tasks.
 Nemo: Conducts marine research and navigation.
-Arminius: Provides system protection.
-Lancelot: Provides system protection.
-Merlin: Provides system protection.
-Heracles: Provides system protection.
 Hunter: Protects copyright and trademarks.
 Ninja: Observes the system.
 Baumann: Manages design analysis and creation.
