@@ -2,7 +2,7 @@
 
 Welcome to Figura-AI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
-Architectural Design
+**Architectural Design**
 
 Figura-AI is an open-source AI project that is built around a modular and extensible system. It combines a wide range of AI functions into an integrated, comprehensive artificial intelligence ecosystem. The design is primarily divided into five main "engines", each composed of several modular "building blocks". Each building block is specialized, providing individual capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
 
