@@ -1,33 +1,33 @@
-Figura-KI
+Figura-AI
 
-Welcome to Figura-KI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
+Welcome to Figura-AI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
 
 Architectural Design
-Figura-KI is an open-source AI project that is built around a modular and extensible system. It combines a wide range of AI functions into an integrated, comprehensive artificial intelligence ecosystem. The design is primarily divided into five main "engines", each composed of several modular "building blocks". Each building block is specialized, providing individual capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
+Figura-AI is an open-source AI project that is built around a modular and extensible system. It combines a wide range of AI functions into an integrated, comprehensive artificial intelligence ecosystem. The design is primarily divided into five main "engines", each composed of several modular "building blocks". Each building block is specialized, providing individual capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
 
-KTW (Core Engine): This forms the backbone of the Figura-KI system, housing essential building blocks that ensure smooth running of the system's core operations.
+CE (Core Engine): This forms the backbone of the Figura-KI system, housing essential building blocks that ensure smooth running of the system's core operations.
 
-ASTW (Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-KI, managing system resources, process termination, and database management.
+SASE (Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-KI, managing system resources, process termination, and database management.
 
-ETW (Investigation Engine): The ETW engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
+IE (Investigation Engine): The ETW engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
 
-ATW (Sequence Engine): The ATW engine handles practical process structures within Figura-KI, such as machine control, hologram creation, and other procedural tasks.
+SE (Sequence Engine): The ATW engine handles practical process structures within Figura-KI, such as machine control, hologram creation, and other procedural tasks.
 
-ETW/ATW (Combination Engine): The Combination engine is a hybrid system combining the capabilities of the ETW and ATW engines. It is capable of conducting autonomous investigations and initiating and controlling processes within the system.
+IE/SE (Combination Engine): The Combination engine is a hybrid system combining the capabilities of the ETW and ATW engines. It is capable of conducting autonomous investigations and initiating and controlling processes within the system.
 
 These engines work in harmony to form a coherent system, with each engine and its building blocks fulfilling unique roles. This modular design allows for easy expandability and scalability, enabling new functionalities to be added or existing functionalities to be modified without disrupting the entire system.
 
-Beyond this, Figura-KI implements a flexible and sophisticated module communication and building block combination system. The system leverages Event-Driven Architecture (EDA) and Apache Kafka, a distributed event streaming platform, to enable real-time communication and data transfer between the different engines and building blocks. This design choice allows for a highly decoupled and scalable architecture, where building blocks can be combined, extended, or replaced without affecting others.
+Beyond this, Figura-AI implements a flexible and sophisticated module communication and building block combination system. The system leverages Event-Driven Architecture (EDA) and Apache Kafka, a distributed event streaming platform, to enable real-time communication and data transfer between the different engines and building blocks. This design choice allows for a highly decoupled and scalable architecture, where building blocks can be combined, extended, or replaced without affecting others.
 
 Moreover, to ensure the secure transmission of data across the system, Figura-KI incorporates Secure Sockets Layer (SSL) technology. SSL provides a secure channel between two machines or devices operating over the internet or an internal network, safeguarding the integrity and privacy of the data in transit.
 
-The Figura-KI system is designed to be dynamic and adaptable, capable of handling a variety of tasks from data investigation to process control. It is this flexible and comprehensive design, complete with advanced module communication and building block combination capabilities, that sets Figura-KI apart, creating a powerful AI system able to serve diverse needs in a constantly evolving technological landscape.
+The Figura-AI system is designed to be dynamic and adaptable, capable of handling a variety of tasks from data investigation to process control. It is this flexible and comprehensive design, complete with advanced module communication and building block combination capabilities, that sets Figura-KI apart, creating a powerful AI system able to serve diverse needs in a constantly evolving technological landscape.
 
-Figura-KI is designed as a modular system, with each module performing a specific task. This design allows for efficient and scalable operations, as each module can be developed, tested, and deployed independently. Moreover, this structure allows for a high degree of flexibility and customization, as modules can be added, removed, or modified as needed to meet specific requirements.
+Figura-AI is designed as a modular system, with each module performing a specific task. This design allows for efficient and scalable operations, as each module can be developed, tested, and deployed independently. Moreover, this structure allows for a high degree of flexibility and customization, as modules can be added, removed, or modified as needed to meet specific requirements.
 
-The heart of Figura-KI is its engines, each composed of multiple building blocks. These building blocks, or modules, are designed to perform a specific function and can be combined in various ways to carry out complex tasks. This versatility is enhanced by the use of the Kafka message broker for inter-module communication, providing real-time, fault-tolerant, and scalable messaging capabilities.
+The heart of Figura-AI is its engines, each composed of multiple building blocks. These building blocks, or modules, are designed to perform a specific function and can be combined in various ways to carry out complex tasks. This versatility is enhanced by the use of the Kafka message broker for inter-module communication, providing real-time, fault-tolerant, and scalable messaging capabilities.
 
-Figura-KI also leverages the power of Event-Driven Architecture (EDA), a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. With EDA, Figura-KI can respond in real-time to changes or events, making it highly responsive and dynamic.
+Figura-AI also leverages the power of Event-Driven Architecture (EDA), a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. With EDA, Figura-KI can respond in real-time to changes or events, making it highly responsive and dynamic.
 
 SSL (Secure Sockets Layer) is employed to ensure secure data transmission within the system. This means that the communication between different components and modules of the system is encrypted and safe from unauthorized access or breaches.
 
@@ -37,9 +37,9 @@ Furthermore, the Python standard library Tkinter is used for designing an intuit
 
 In addition to the Tkinter library, Figura-KI could also consider further libraries like PyQt or Kivy for even more features and customization possibilities for designing its user interface. These libraries provide advanced widgets and functionalities, such as drag-and-drop support, animations, gesture control, and more, which can contribute to enhancing the user experience further and simplifying user interaction with the system.
 
-In summary, Figura-KI's architecture is designed to optimally utilize these diverse Python libraries and modules to create a powerful, flexible, and user-friendly AI system. It's not just capable of performing a wide array of AI functions, but also of combining and coordinating these functions in a way that effectively meets its users' requirements and goals.
+In summary, Figura-AI's architecture is designed to optimally utilize these diverse Python libraries and modules to create a powerful, flexible, and user-friendly AI system. It's not just capable of performing a wide array of AI functions, but also of combining and coordinating these functions in a way that effectively meets its users' requirements and goals.
 
-Figura-KI's modular design is further enhanced by the use of Mojo (Modular), a dynamic module system for Python. Mojo is fundamentally designed to support the creation, management, and utilization of modular Python software. This system aligns perfectly with the architectural design principles of Figura-KI, as it facilitates the dynamic addition, removal, and replacement of modules at runtime. This makes Figura-KI a highly adaptable and flexible system, capable of adjusting to changing requirements and conditions.
+Figura-AI's modular design is further enhanced by the use of Mojo (Modular), a dynamic module system for Python. Mojo is fundamentally designed to support the creation, management, and utilization of modular Python software. This system aligns perfectly with the architectural design principles of Figura-KI, as it facilitates the dynamic addition, removal, and replacement of modules at runtime. This makes Figura-KI a highly adaptable and flexible system, capable of adjusting to changing requirements and conditions.
 
 Mojo's capability to seamlessly interface with Python and its extensive ecosystem of libraries and modules is a significant advantage for Figura-KI's development. The Python compatibility of Mojo allows it to leverage Python's rich library of data processing tools, AI models, and utilities, as well as Python's simplicity and readability, which is a significant advantage when working with complex AI systems.
 
@@ -52,25 +52,25 @@ Moreover, the use of Mojo aligns with Figura-KI's objective of user-friendliness
 In summary, the integration of Mojo in Figura-KI's architectural design greatly contributes to its modularity, flexibility, and user-friendliness. It facilitates the dynamic, efficient, and robust operation of the system, while also enabling a high degree of customization and adaptability. This makes Figura-KI not only a powerful AI tool but also one that is easy to use, understand, and modify according to the specific needs of its users.
 
 Engines
-KTW (Kerntriebwerk/Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
+CE (Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
 
-ASTW (Ablauf- und Stabilitätstriebwerk/Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
+SASE (Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
 
-ETW (Ermittlungstriebwerk/Investigation Engine): Entrusted with all autonomous data investigation and analysis within the system.
+IE (Investigation Engine): Entrusted with all autonomous data investigation and analysis within the system.
 
-ATW (Ablauftriebwerk/Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
+SE (Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
 
-ETW/ATW (Kombinationstriebwerk/Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
+IE/SE (Kombinationstriebwerk/Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
 
 Building Blocks
 Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
 
-KTW:
+CE:
 Atlas: Manages core engine control and protection.
 Socrates: Handles ethical matters and ensures ethical compliance within the system.
 Solomon: Manages all legal issues within the system.
 
-ASTW:
+SASE:
 David: Terminates individual or all processes in the system.
 Goliath: Controls, coordinates, and maintains stability of all processes.
 Amschel: Ensures system resources such as RAM, database, or CPU power are adequately available.
@@ -78,7 +78,7 @@ Monk: Manages the database of the Figura-KI system.
 Cerebro: Monitors and optimizes the system.
 Supermodel: Manages the ggml-model.bin files.
 
-ETW:
+IE:
 Spector: Controls the Investigation Engine.
 Fugger: Handles economic analysis.
 Scout: Investigates the AI system.
@@ -118,7 +118,7 @@ Einstein: Solves complex mathematical and physical problems.
 Horus: Monitors and analyzes aerospace or atmospheric data.
 Gaia: Conducts environmental and ecosystem analysis.
 
-ATW:
+SE:
 Mechlar: Controls the Sequence Engine.
 Blender: Handles holography tasks.
 Kryptor: Manages encryption and decryption tasks.
@@ -128,7 +128,7 @@ Demon: A service block.
 Daniel: A construction block.
 Commissioner: Handles data compilation tasks.
 
-ETW/ATW:
+IE/SE:
 McGyver: Controls the Combination Engine.
 Tesla: Conducts technical investigation and creation tasks.
 Brutus: Protects the system, able to apply brute force methods to remove malicious code.
@@ -144,13 +144,13 @@ Baumann: Manages design analysis and creation.
 Gutenberg: Processes and creates texts, reports, and documents.
 
 Contribution
-We wholeheartedly welcome contributions to enhance and extend Figura-KI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
+We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
 
 License
-Figura-KI is distributed under the GPL license. For more details, please see the LICENSE file.
+Figura-AI is distributed under the GPL license. For more details, please see the LICENSE file.
 
 Code of Conduct
 We aim to maintain an open and welcoming environment for all who wish to contribute to our project. Please refer to the Code_of_Conduct.md file for further information.
 
 Contact
-For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-KI and look forward to your participation in enhancing this innovative project.
+For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-AI and look forward to your participation in enhancing this innovative project.
