@@ -60,7 +60,7 @@ IE (Investigation Engine): Entrusted with all autonomous data investigation and 
 
 SE (Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
 
-IE/SE (Kombinationstriebwerk/Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
+IE/SE (Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
 
 Building Blocks
 Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
