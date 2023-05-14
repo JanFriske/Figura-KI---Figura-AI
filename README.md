@@ -71,7 +71,7 @@ IE/SE (Combination Engine): A hybrid engine capable of both autonomous investiga
 
 Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
 
-CE (Core Engine):
+**CE (Core Engine):**
 
 Atlas: Manages core engine control and protection.
 
@@ -80,7 +80,7 @@ Socrates: Handles ethical matters and ensures ethical compliance within the syst
 Solomon: Manages all legal issues within the system.
 
 
-SSASE (System-Sequence and Stability Engine):
+**SSASE (System-Sequence and Stability Engine):**
 
 David: Terminates individual or all processes in the system.
 
@@ -114,7 +114,7 @@ Chronist: Logs system activity.
 Chronos: Manages time.
 
 
-IE (Investigation Engine):
+**IE (Investigation Engine):**
 
 Spector: Controls the Investigation Engine.
 
@@ -189,7 +189,7 @@ Horus: Monitors and analyzes aerospace or atmospheric data.
 Gaia: Conducts environmental and ecosystem analysis.
 
 
-SE (Sequence Engine):
+**SE (Sequence Engine):**
 
 Mechlar: Controls the Sequence Engine.
 
@@ -204,7 +204,7 @@ Demon: A service block.
 Daniel: A construction block.
 
 
-IE/SE (Combination Engine):
+**IE/SE (Combination Engine):**
 
 McGyver: Controls the Combination Engine.
 
