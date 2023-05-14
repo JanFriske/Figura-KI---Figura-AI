@@ -170,3 +170,8 @@ We aim to maintain an open and welcoming environment for all who wish to contrib
 
 For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-AI and look forward to your participation in enhancing this innovative project.
 
+
+**Repository´s Wiki Page**
+
+Also check out the wiki page of this repository. There you can find more information about the concept of Figura-AI.
+
