@@ -91,6 +91,7 @@ Arminius: Provides system protection.
 Lancelot: Provides system protection.
 Merlin: Provides system protection.
 Heracles: Provides system protection.
+Chronist: Logs system activity.
 
 IE:
 Spector: Controls the Investigation Engine.
@@ -121,7 +122,6 @@ Freud: Performs psychoanalysis.
 Gastmann: Researches economics.
 Dana: Contributes to humanities.
 Hekate: Investigates extraordinary phenomena.
-Chronist: Logs system activity.
 Ying and Yang: Harmonizes the AI system.
 Poseidon: Manages and analyzes oceanographic and hydrosphere data.
 DaVinci: Assists in creative problem-solving.
