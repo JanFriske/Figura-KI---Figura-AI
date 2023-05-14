@@ -72,82 +72,154 @@ IE/SE (Combination Engine): A hybrid engine capable of both autonomous investiga
 Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
 
 CE:
+
 Atlas: Manages core engine control and protection.
+
 Socrates: Handles ethical matters and ensures ethical compliance within the system.
+
 Solomon: Manages all legal issues within the system.
 
+
 SASE:
+
 David: Terminates individual or all processes in the system.
+
 Goliath: Controls, coordinates, and maintains stability of all processes.
+
 Amschel: Ensures system resources such as RAM, database, or CPU power are adequately available.
+
 Monk: The block Monk is responsible for database management, ensuring data access and organization is seamless.
+
 Hermes: This block manages Figura-AI block communication System
 Kryptor: This block manages block communikation and database Encryption and decryption.
+
 Cerebro: Monitors and optimizes the system.
+
 Supermodel: Manages the ggml-model.bin files.
+
 Commissioner: Handles data compilation tasks.
+
 Brutus: Protects the system, able to apply brute force methods to remove malicious code.
+
 Arminius: Provides system protection.
+
 Lancelot: Provides system protection.
+
 Merlin: Provides system protection.
+
 Heracles: Provides system protection.
+
 Chronist: Logs system activity.
 
-IE:
-Spector: Controls the Investigation Engine.
-Fugger: Handles economic analysis.
-Scout: Investigates the AI system.
-Chronovisor: Analyzes time courses.
-Janus: Investigates dualities.
-Polaris: Investigates polarities.
-ShinTsui: Investigates aesthetics.
-Hypocrates: Handles medical investigation.
-Prophet: Investigates purity.
-Schauberger: Researches water.
-Leonardo: Handles special research.
-Sherlock: Handles convergent investigation.
-Owl: Contributes to wisdom.
-Architektus: Investigates architecture.
-Alnatura: Promotes environmental protection.
-Joda: Performs universal investigation.
 Chronos: Manages time.
+
+
+IE:
+
+Spector: Controls the Investigation Engine.
+
+Fugger: Handles economic analysis.
+
+Scout: Investigates the AI system.
+
+Chronovisor: Analyzes time courses.
+
+Janus: Investigates dualities.
+
+Polaris: Investigates polarities.
+
+ShinTsui: Investigates aesthetics.
+
+Hypocrates: Handles medical investigation.
+
+Prophet: Investigates purity.
+
+Schauberger: Researches water.
+
+Leonardo: Handles special research.
+
+Sherlock: Handles convergent investigation.
+
+Owl: Contributes to wisdom.
+
+Architektus: Investigates architecture.
+
+Alnatura: Promotes environmental protection.
+
+Joda: Performs universal investigation.
+
 Copernicus: Investigates space.
+
 Thing: Resolves conflicts.
+
 Photon: Investigates light.
+
 Aero: Investigates the atmosphere.
+
 Leibnitz: Contributes to mathematics.
+
 Lingua: Analyzes and outputs language.
+
 Radion: Investigates radiation.
+
 Freud: Performs psychoanalysis.
+
 Gastmann: Researches economics.
+
 Dana: Contributes to humanities.
+
 Hekate: Investigates extraordinary phenomena.
+
 Ying and Yang: Harmonizes the AI system.
+
 Poseidon: Manages and analyzes oceanographic and hydrosphere data.
+
 DaVinci: Assists in creative problem-solving.
+
 Galadriel: Conducts future forecasts and trend analyses.
+
 Rosalind: Analyzes genetic and biological data.
+
 Vulcan: Manages logic analysis and reasoning.
+
 Einstein: Solves complex mathematical and physical problems.
+
 Horus: Monitors and analyzes aerospace or atmospheric data.
+
 Gaia: Conducts environmental and ecosystem analysis.
 
+
 SE:
+
 Mechlar: Controls the Sequence Engine.
+
 Blender: Handles holography tasks.
+
 Coder: Handles automatic programming tasks.
+
 Creator: Manages creation tasks.
+
 Demon: A service block.
+
 Daniel: A construction block.
 
+
 IE/SE:
+
 McGyver: Controls the Combination Engine.
+
 Tesla: Conducts technical investigation and creation tasks.
+
 Columbus: Handles navigation tasks.
+
 Nemo: Conducts marine research and navigation.
+
 Hunter: Protects copyright and trademarks.
+
 Ninja: Observes the system.
+
 Baumann: Manages design analysis and creation.
+
 Gutenberg: Processes and creates texts, reports, and documents.
 
 
