@@ -9,7 +9,7 @@ Figura-AI is an open-source AI project that is built around a modular and extens
 
 CE (Core Engine): This forms the backbone of the Figura-AI system, housing essential building blocks that ensure smooth running of the system's core operations.
 
-SASE (Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-AI, managing system resources, process termination, and database management.
+SSASE (System-Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-AI, managing system resources, process termination, and database management.
 
 IE (Investigation Engine): The ETW engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
 
