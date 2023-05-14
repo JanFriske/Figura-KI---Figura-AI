@@ -203,6 +203,8 @@ Demon: A service block.
 
 Daniel: A construction block.
 
+Figura-Vision: Video content generating block.
+
 
 **IE/SE (Combination Engine):**
 
