@@ -69,7 +69,7 @@ IE/SE (Combination Engine): A hybrid engine capable of both autonomous investiga
 
 **Building Blocks**
 
-Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories of this repository. Here's an overview of the Building Blocks:
+Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories, or on the Wiki-Page of this repository. Here's an overview of the Building Blocks:
 
 **CE (Core Engine):**
 
