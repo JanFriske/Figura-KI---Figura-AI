@@ -11,7 +11,7 @@ CE (Core Engine): This forms the backbone of the Figura-AI system, housing essen
 
 SSASE (System-Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-AI, managing system resources, process termination, and database management.
 
-IE (Investigation Engine): The ETW engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
+IE (Investigation Engine): The IE engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
 
 SE (Sequence Engine): The SE engine handles practical process structures within Figura-AI, such as machine control, hologram creation, and other procedural tasks.
 
@@ -58,7 +58,7 @@ In summary, the integration of Mojo in Figura-AI's architectural design greatly 
 
 CE (Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
 
-SASE (Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
+SSASE (System-Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
 
 IE (Investigation Engine): Entrusted with all autonomous data investigation and analysis within the system.
 
@@ -91,6 +91,7 @@ Amschel: Ensures system resources such as RAM, database, or CPU power are adequa
 Monk: The block Monk is responsible for database management, ensuring data access and organization is seamless.
 
 Hermes: This block manages Figura-AI block communication System
+
 Kryptor: This block manages block communikation and database Encryption and decryption.
 
 Cerebro: Monitors and optimizes the system.
@@ -137,6 +138,8 @@ Prophet: Investigates purity.
 Schauberger: Researches water.
 
 Leonardo: Handles special research.
+
+Avé-Lallemant: police research.
 
 Sherlock: Handles convergent investigation.
 
