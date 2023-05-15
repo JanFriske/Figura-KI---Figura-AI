@@ -227,6 +227,8 @@ Baumann: Manages design analysis and creation.
 
 Gutenberg: Processes and creates texts, reports, and documents.
 
+Inspector: validating block.
+
 
 **Contribution**
 
