@@ -17,7 +17,7 @@ Create a branch: Always create a new branch for each feature or bug fix you're w
 Thank you for your interest in contributing to the Figura-AI project! We're building an advanced, multimodular, high-performance artificial intelligence system, and we're excited to have you join us. Whether you're a developer, a designer, a writer, or just someone enthusiastic about AI, there's a place for you here.
 
 **Getting Started**
-Familiarize yourself with the project. Spend some time reading through the project documentation and source code to understand the project's structure and existing features.
+Familiarize yourself with the project. Spend some time reading through the project documentation and Wiki-Page of this Repository to understand the project's structure and features.
 
 Join our community. We have a vibrant and inclusive community. Connect with us on our forums or chat rooms and introduce yourself. This is a great place to ask questions and get guidance.
 
