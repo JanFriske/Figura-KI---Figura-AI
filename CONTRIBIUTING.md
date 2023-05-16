@@ -16,29 +16,29 @@ Create a branch: Always create a new branch for each feature or bug fix you're w
 
 Thank you for your interest in contributing to the Figura-AI project! We're building an advanced, multimodular, high-performance artificial intelligence system, and we're excited to have you join us. Whether you're a developer, a designer, a writer, or just someone enthusiastic about AI, there's a place for you here.
 
-Getting Started
+**Getting Started**
 Familiarize yourself with the project. Spend some time reading through the project documentation and source code to understand the project's structure and existing features.
 
 Join our community. We have a vibrant and inclusive community. Connect with us on our forums or chat rooms and introduce yourself. This is a great place to ask questions and get guidance.
 
 Set up your development environment. Follow the instructions in the project README to get your development environment set up.
 
-Ways to Contribute
+**Ways to Contribute**
 There are many ways you can contribute to Figura-AI:
 
-Coding: We're always looking for developers to help us build Figura-AI. Whether you're an expert in Python, Mojo, or another language, there are always tasks to be done.
+**Coding:** We're always looking for developers to help us build Figura-AI. Whether you're an expert in Python, Mojo, or another language, there are always tasks to be done.
 
-Writing Documentation: Good documentation is key to a successful project. If you enjoy writing and explaining, we would love your help in improving our docs.
+**Writing Documentation:** Good documentation is key to a successful project. If you enjoy writing and explaining, we would love your help in improving our docs.
 
-Testing: Help us catch bugs and improve the reliability of Figura-AI by testing the system and reporting issues.
+**Testing:** Help us catch bugs and improve the reliability of Figura-AI by testing the system and reporting issues.
 
-Design: If you're a designer, we could use your help in improving the UI/UX of Figura-AI.
+**Design:** If you're a designer, we could use your help in improving the UI/UX of Figura-AI.
 
-Bug Reporting: Found a bug? Let us know and we'll fix it.
+**Bug Reporting:** Found a bug? Let us know and we'll fix it.
 
-Feature Requests: Have an idea for a feature that could improve Figura-AI? We'd love to hear about it.
+**Feature Requests:** Have an idea for a feature that could improve Figura-AI? We'd love to hear about it.
 
-Contribution Process
+**Contribution Process**
 Find an issue to work on. You can choose from the existing issues or create a new one if you've discovered a bug or have a feature request.
 
 Claim the issue. Comment on the issue to let us know you're interested in working on it.
@@ -53,7 +53,7 @@ PR merge. Once your PR is approved, it will be merged into the main codebase.
 
 Remember, the most important thing is to have fun and learn. Don't worry if you don't know everything. We're all here to help each other. Let's build something great together!
 
-Conclusion
+**Conclusion**
 Once again, thank you for your interest in contributing to the Figura-AI project. Your contributions will not only help improve the project but will also benefit the broader AI community. We look forward to collaborating with you!
 
 **Pull Requests**
