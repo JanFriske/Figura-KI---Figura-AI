@@ -79,6 +79,9 @@ Socrates: Handles ethical matters and ensures ethical compliance within the syst
 
 Solomon: Manages all legal issues within the system.
 
+Joshua: responsible for grace.
+
+Assisi: responsible for humility.
 
 **SSASE (System-Sequence and Stability Engine):**
 
