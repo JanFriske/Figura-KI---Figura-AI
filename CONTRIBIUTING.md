@@ -56,6 +56,8 @@ Remember, the most important thing is to have fun and learn. Don't worry if you 
 **Conclusion**
 Once again, thank you for your interest in contributing to the Figura-AI project. Your contributions will not only help improve the project but will also benefit the broader AI community. We look forward to collaborating with you!
 
+
+
 **Pull Requests**
 
 Keep it focused: Each pull request should address a single issue or feature. This makes it easier for the project maintainers to review and merge your changes.
@@ -71,43 +73,34 @@ Sign-off your commits: Make sure to sign off on your commits using the -s flag w
 When you're ready, submit your pull request, and one of the project maintainers will review your changes. They may provide feedback and request changes before merging your contribution.
 
 
-**Code of Conduct for Figura-AI Project**
+
+**Figura-AI Project Code of Conduct**
+
+This Code of Conduct provides guidelines for all individuals contributing to the Figura-AI project. Our goal is to foster an inclusive and respectful community where everyone feels welcome and can contribute effectively.
+
+**1. Respect for all**
+We are committed to fostering an environment where everyone is treated with dignity and respect, irrespective of their identity, background, or perspective. We value the diversity of our contributors and believe it is a source of strength for our project.
+
+**2. Professional and Collegial Conduct**
+We expect all contributors to act in a professional and collegial manner. This means treating others with kindness, practicing active listening, and being considerate of differing viewpoints. We discourage any form of belittling, dismissive, or derogatory conduct.
+
+**3. Cooperative Collaboration**
+Collaboration is at the heart of open-source development, and we encourage everyone to work together cooperatively. Share your expertise, ask for help when needed, and offer assistance to others. Remember that we're all working towards the common goal of improving Figura-AI.
+
+**4. Equality and Fairness**
+In our community, everyone has an equal opportunity to contribute and influence the project's direction, regardless of their role or experience level. We value all contributions, whether they're related to coding, design, documentation, or community outreach.
+
+**5. Open and Constructive Communication**
+We encourage open and constructive communication. When disagreements arise, address them in a direct but respectful manner. Focus on the issue, not the person, and strive for a solution that benefits the project.
+
+**6. Adherence to Legal and Ethical Standards**
+All contributors must comply with legal standards and ethical norms. This includes respecting intellectual property rights, maintaining user privacy, and avoiding conflicts of interest.
+
+Violations of this Code of Conduct will not be tolerated and may result in exclusion from the project. If you witness or experience any behavior that goes against this Code, please report it to the project maintainers.
+
+By participating in the Figura-AI project, you agree to abide by this Code of Conduct. Together, let's create a positive and productive environment where everyone can contribute to their fullest potential.
 
 
-**Our Pledge**
-
-In the interest of fostering an open, welcoming, and diverse environment, we as contributors and maintainers pledge to make participation in the Figura-KI project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-**Our Standards**
-
-Examples of behavior that contributes to creating a positive environment include:
-
-Using welcoming and inclusive language.
-Being respectful of differing viewpoints and experiences.
-Gracefully accepting constructive criticism.
-Focusing on what is best for the community.
-Showing empathy towards other community members.
-Examples of unacceptable behavior by participants include:
-
-The use of sexualized language or imagery and unwelcome sexual attention or advances.
-Trolling, insulting/derogatory comments, and personal or political attacks.
-Public or private harassment.
-Publishing others' private information, such as a physical or electronic address, without explicit permission.
-Other conduct which could reasonably be considered inappropriate in a professional setting.
-Our Responsibilities
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-**Scope**
-
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
-
-**Enforcement**
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [janfriske777@googlemail.com]. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
 **Attribution**
 
