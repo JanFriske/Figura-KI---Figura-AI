@@ -232,6 +232,9 @@ Gutenberg: Processes and creates texts, reports, and documents.
 
 Inspector: validating block.
 
+Alchemist: responsible for substance testing of substances and substance compounds.
+
+Medicus: responsible for medical analysis and practice.
 
 **Contribution**
 
