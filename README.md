@@ -236,6 +236,8 @@ Alchemist: responsible for substance testing of substances and substance compoun
 
 Medicus: responsible for medical analysis and practice.
 
+Figura-Interface Block: the intelligent AI control of the Figura Interface.
+
 **Contribution**
 
 We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
