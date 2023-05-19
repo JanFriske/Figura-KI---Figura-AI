@@ -194,6 +194,7 @@ Horus: Monitors and analyzes aerospace or atmospheric data.
 
 Gaia: Conducts environmental and ecosystem analysis.
 
+Fractalion: study of patterns and similarities in different dimensions and scales.
 
 **SE (Sequence Engine):**
 
