@@ -239,6 +239,8 @@ Medicus: responsible for medical analysis and practice.
 
 Figura-Interface Block: the intelligent AI control of the Figura Interface.
 
+Resonator: controlled monitors and controls intelligent resonance
+
 **Contribution**
 
 We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
