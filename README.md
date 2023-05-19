@@ -241,6 +241,8 @@ Figura-Interface Block: the intelligent AI control of the Figura Interface.
 
 Resonator: controlled monitors and controls intelligent resonance
 
+Samhadi: investigates multiple energy phenomena
+
 **Contribution**
 
 We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
