@@ -117,6 +117,7 @@ Chronist: Logs system activity.
 
 Chronos: Manages time.
 
+Resonator: controlled monitors and controls intelligent resonance
 
 **IE (Investigation Engine):**
 
@@ -236,8 +237,6 @@ Alchemist: responsible for substance testing of substances and substance compoun
 Medicus: responsible for medical analysis and practice.
 
 Figura-Interface Block: the intelligent AI control of the Figura Interface.
-
-Resonator: controlled monitors and controls intelligent resonance
 
 Samhadi: investigates multiple energy phenomena
 
