@@ -62,7 +62,7 @@ Integration
 The Modular software stack is designed to drop into our existing workflows and use cases. It integrates with industry-standard infrastructure and open-source tools to minimize migration cost. This ensures a seamless experience for our users and developers when working with the Figura-AI project.
 
 Get Started with Figura-AI and Mojo 🔥
-Getting started with Mojo 🔥 in the Figura-AI project is easy. We provide Jupyter notebooks and detailed documentation to help you learn about the capabilities and features of Mojo 🔥.
+Getting started with Mojo 🔥 in the Figura-AI project is easy. Modular provide Jupyter notebooks and detailed documentation to help you learn about the capabilities and features of Mojo 🔥.
 
 Join our community on Discord and help shape the future of AI programming with Figura-AI and Mojo 🔥!
 
