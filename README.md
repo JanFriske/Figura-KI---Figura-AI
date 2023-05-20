@@ -160,8 +160,6 @@ Thing: Resolves conflicts.
 
 Photon: Investigates light.
 
-Aero: Study and evaluation of airspace and air traffic.
-
 Leibnitz: Contributes to mathematics.
 
 Lingua: Analyzes and outputs language.
@@ -210,7 +208,7 @@ Demon: A service block.
 
 Daniel: A construction block.
 
-Figura-Vision: Video content generating block.
+Figura-Vision: Video content generating block and producer of virtual person Figura AI
 
 
 **IE/SE (Combination Engine):**
@@ -242,6 +240,8 @@ Figura-Interface Block: the intelligent AI control of the Figura Interface.
 Resonator: controlled monitors and controls intelligent resonance
 
 Samhadi: investigates multiple energy phenomena
+
+Aero: study and evaluation of airspace, air traffic and air navigation.
 
 **Contribution**
 
