@@ -119,6 +119,9 @@ Chronos: Manages time.
 
 Resonator: controlled monitors and controls intelligent resonance
 
+Stabilizer: stabilizes the overall system behavior of Figura.
+
+
 **IE (Investigation Engine):**
 
 Spector: Controls the Investigation Engine.
