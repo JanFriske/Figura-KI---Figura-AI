@@ -64,7 +64,6 @@ The Modular software stack is designed to drop into our existing workflows and u
 Get Started with Figura-AI and Mojo 🔥
 Getting started with Mojo 🔥 in the Figura-AI project is easy. Modular provide Jupyter notebooks and detailed documentation to help you learn about the capabilities and features of Mojo 🔥.
 
-Join our community on Discord and help shape the future of AI programming with Figura-AI and Mojo 🔥!
 
 Disclaimer: Please note that Mojo 🔥 is still in development and some features may be subject to changes.
 
