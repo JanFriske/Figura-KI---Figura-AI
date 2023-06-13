@@ -256,7 +256,7 @@ Medicus: responsible for medical analysis and practice.
 
 Figura-Interface Block: the intelligent AI control of the Figura Interface.
 
-Samhadi: investigates multiple energy phenomena
+Samadhi: investigates multiple energy phenomena
 
 Aero: study and evaluation of airspace, air traffic and air navigation.
 
