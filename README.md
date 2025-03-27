@@ -157,25 +157,28 @@ The Figura System is built from all engines, and user interaction is facilitated
 
 ## Contribution Guidelines
 
-We welcome contributions to enhance and extend Figura AI. Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines on how to contribute.
+We welcome contributions to enhance and extend Figura AI. Please see the ([CONTRIBUTING.md](https://github.com/JanFriske/Figura-KI---Figura-AI/blob/main/CONTRIBIUTING.md)) file for detailed guidelines on how to contribute.
 
 ## License
 
-Figura AI is distributed under the GPL license. For more details, please see the [LICENSE](LICENSE) file.
+Figura AI is distributed under the GPL license. For more details, please see the ([LICENSE](https://github.com/JanFriske/Figura-KI---Figura-AI/blob/main/LICENSE)) file.
 
 ## Code of Conduct
 
-We aim to maintain an open and welcoming environment for all contributors. Please refer to the [Code_of_Conduct.md](CODE_OF_CONDUCT.md) file for further information.
+We aim to maintain an open and welcoming environment for all contributors. Please refer to the ([CODE_OF_CONDUCT.md](https://github.com/JanFriske/Figura-KI---Figura-AI/blob/main/Code%20of%20Conduct.md)) file for further information.
 
 ## Contact
 
 For any questions, suggestions, or issues, please create a ticket on GitHub. We appreciate your interest in Figura AI and look forward to your participation in enhancing this innovative project.
 
 ## Repository Structure
-- **README.md**: Overview of the project.
 - **CONTRIBUTING.md**: Guidelines for contributing.
 - **LICENSE**: Project license.
+- **README.md**: Overview of the project.
 - **CODE_OF_CONDUCT.md**: Code of conduct for contributors.
+
+Comming soon:
+
 - **docs/**: Documentation for various components and modules.
 - **src/**: Source code files.
 - **tests/**: Test cases.
