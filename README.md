@@ -1,283 +1,192 @@
-**Figura-AI**
+# Figura AI - A Modular and Dynamic Open-Source Advanced Artificial Intelligence System
+
+Welcome to Figura AI, an innovative open-source project aimed at creating a sophisticated and versatile artificial intelligence system. Figura AI comprises multiple 'engines' and 'building blocks,' each with unique functionalities that collaborate to achieve complex tasks. The system leverages the power of over 72 building blocks, each equipped with specialized GGUF (General Graphical User Framework) models for high-performance processing.
 
-Welcome to Figura-AI, an innovative open-source AI project that fuses a comprehensive array of AI functionalities into a unified, modular, and expandable system. Using the ggml-model.bin files from the Huggingface platform, Figura-KI provides an extensive variety of AI capabilities.
+## Overview
+
+Figura AI is designed as a modular system, where each module performs a specific task. This design allows for efficient and scalable operations, enabling new functionalities to be added or existing ones modified without disrupting the entire system. The project utilizes both Python and Mojo, two powerful programming languages, to optimize performance and flexibility.
 
+## Key Features
+
+### Modular Architecture
+Figura AI is built around five main engines:
+1. **Core Engine (CE)**: Manages and controls core AI processing capabilities.
+2. **System-Sequence and Stability Engine (SSASE)**: Ensures seamless execution, coordination, and stability of all processes within the system.
+3. **Investigation Engine (IE)**: Handles autonomous data investigation and analysis.
+4. **Sequence Engine (SE)**: Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
+5. **Combination Engine (IE/SE)**: A hybrid engine capable of both autonomous investigations and system process management.
+
+### Building Blocks
+Each engine is composed of several building blocks, each responsible for specialized functions. For example:
+- **CE (Core Engine)** includes Atlas, Socrates, Solomon, Joshua, and Assisi.
+- **SSASE** includes David, Goliath, Amschel, Monk, Hermes, Kryptor, Cerebro, Supermodel, Commissioner, Brutus, Arminius, Lancelot, Merlin, Heracles, Chronist, Chronos, Resonator, and Stabilizer.
+
+## Technical Implementation
+
+### Python and Mojo
+- **Python**: Used for flexible orchestration tasks such as data manipulation, analysis, and general system management.
+- **Mojo**: Utilized for performance-intensive processes and critical algorithms to ensure high-speed computations.
+
+#### Example Code: Connecting CE and SSASE Containers
+
+**Python Script (container_connection.py)**
+```python
+import docker
+from kafka import KafkaProducer
+import json
 
-**Architectural Design**
+# Initialize Docker client
+client = docker.from_env()
+
+# Function to start a container
+def start_container(image_name, network):
+    return client.containers.run(image_name, detach=True, network=network)
+
+# Start CE containers
+atlas_container = start_container("figuraai/atlas", "core_network")
+socrates_container = start_container("figuraai/socrates", "core_network")
+
+# Start SSASE containers
+goliath_container = start_container("figuraai/goliath", "ssase_network")
+amschel_container = start_container("figuraai/amschel", "ssase_network")
+
+# Kafka producer to send messages between containers
+producer = KafkaProducer(
+    bootstrap_servers='kafka:9092',
+    value_serializer=lambda v: json.dumps(v).encode('utf-8')
+)
 
-Figura-AI is an open-source AI project that is built around a modular and extensible system. It combines a wide range of AI functions into an integrated, comprehensive artificial intelligence ecosystem. The design is primarily divided into five main "engines", each composed of several modular "building blocks". Each building block is specialized, providing individual capabilities and functionalities that contribute to the overall operation of the Figura-KI system.
+# Example message from Atlas to Goliath
+message = {'source': 'atlas', 'target': 'goliath', 'data': 'Process Control Command'}
+producer.send('process_control_topic', value=message)
+```
 
-CE (Core Engine): This forms the backbone of the Figura-AI system, housing essential building blocks that ensure smooth running of the system's core operations.
+**Mojo Script (api_communication.mojo)**
+```mojo
+import Kafka
 
-SSASE (System-Sequence and Stability Engine): This engine ensures the stability of all processes within Figura-AI, managing system resources, process termination, and database management.
+struct APICommunication {
+    var producer: Kafka.Producer
 
-IE (Investigation Engine): The IE engine is responsible for autonomous data investigation within the system. It contains a variety of building blocks, each tailored for specific investigation and analysis functions.
+    public init() {
+        self.producer = Kafka.Producer(bootstrap_servers="kafka:9092")
+    }
 
-SE (Sequence Engine): The SE engine handles practical process structures within Figura-AI, such as machine control, hologram creation, and other procedural tasks.
+    public func send_message(topic: String, message: String) {
+        self.producer.send(topic, value=message)
+    }
+}
 
-IE/SE (Combination Engine): The Combination engine is a hybrid system combining the capabilities of the IE and SE engines. It is capable of conducting autonomous investigations and initiating and controlling processes within the system.
+// Example usage
+var api_comm = APICommunication()
+api_comm.send_message(topic="data_analysis_topic", message='{"source": "socrates", "target": "hypocrates", "data": "Medical Data"}')
+```
 
-These engines work in harmony to form a coherent system, with each engine and its building blocks fulfilling unique roles. This modular design allows for easy expandability and scalability, enabling new functionalities to be added or existing functionalities to be modified without disrupting the entire system.
+### Docker and Kubernetes Integration
+Figura AI uses Docker to containerize each building block, ensuring they are portable and scalable. Containers within the same engine communicate over dedicated networks, while inter-engine communication is handled via Apache Kafka.
 
-Beyond this, Figura-AI implements a flexible and sophisticated module communication and building block combination system. The system leverages Event-Driven Architecture (EDA) and Apache Kafka, a distributed event streaming platform, to enable real-time communication and data transfer between the different engines and building blocks. This design choice allows for a highly decoupled and scalable architecture, where building blocks can be combined, extended, or replaced without affecting others.
+#### Example Docker-Compose File (docker-compose.yml)
+```yaml
+version: '3.8'
 
-Moreover, to ensure the secure transmission of data across the system, Figura-KI incorporates Secure Sockets Layer (SSL) technology. SSL provides a secure channel between two machines or devices operating over the internet or an internal network, safeguarding the integrity and privacy of the data in transit.
+services:
+  atlas:
+    image: figuraai/atlas
+    networks:
+      - core_network
 
-The Figura-AI system is designed to be dynamic and adaptable, capable of handling a variety of tasks from data investigation to process control. It is this flexible and comprehensive design, complete with advanced module communication and building block combination capabilities, that sets Figura-AI apart, creating a powerful AI system able to serve diverse needs in a constantly evolving technological landscape.
+  socrates:
+    image: figuraai/socrates
+    networks:
+      - core_network
 
-Figura-AI is designed as a modular system, with each module performing a specific task. This design allows for efficient and scalable operations, as each module can be developed, tested, and deployed independently. Moreover, this structure allows for a high degree of flexibility and customization, as modules can be added, removed, or modified as needed to meet specific requirements.
+  goliath:
+    image: figuraai/goliath
+    networks:
+      - ssase_network
 
-The heart of Figura-AI is its engines, each composed of multiple building blocks. These building blocks, or modules, are designed to perform a specific function and can be combined in various ways to carry out complex tasks. This versatility is enhanced by the use of the Kafka message broker for inter-module communication, providing real-time, fault-tolerant, and scalable messaging capabilities.
+  amschel:
+    image: figuraai/amschel
+    networks:
+      - ssase_network
 
-Figura-AI also leverages the power of Event-Driven Architecture (EDA), a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. With EDA, Figura-KI can respond in real-time to changes or events, making it highly responsive and dynamic.
+networks:
+  core_network:
+    driver: bridge
+  ssase_network:
+    driver: bridge
+```
 
-SSL (Secure Sockets Layer) is employed to ensure secure data transmission within the system. This means that the communication between different components and modules of the system is encrypted and safe from unauthorized access or breaches.
+### System Requirements
+Figura AI is designed to run in environments with substantial computational power, typically a data center or an experimental network party of enthusiasts and tech-savvy friends. Each model, specifically tuned for each block, must be loaded into the GPU's memory due to the performance benefits of GPU-based computations.
 
-Python's rich ecosystem of libraries and modules plays a crucial role in the implementation of Figura-AI. For instance, the TensorFlow and PyTorch libraries are used for implementing deep learning models, while Scikit-learn is used for various machine learning tasks. Libraries like Pandas, NumPy, and SciPy assist with data manipulation and scientific computing, and Keras streamlines the process of developing and training neural networks. Natural Language Processing tasks are handled by NLTK and SpaCy, and Matplotlib and Seaborn are used for data visualization.
+#### Infrastructure Considerations:
+- **Data Center**: Requires powerful hardware with multiple GPUs.
+- **Network Party**: Leverages a cluster of high-performance personal computers connected via a network.
 
-Furthermore, the Python standard library Tkinter is used for designing an intuitive and functional user interface (UI). Tkinter allows for the creation of simple yet powerful UIs, facilitating efficient and user-friendly interaction with the system. Using Tkinter, Figura-AI can incorporate a range of widgets such as buttons, menus, text fields, labels, and many more. Each of these widgets can be linked to specific functions within the system, allowing for an intuitive and responsive user experience. For example, a user can make inputs through a text field, which can then be processed by the appropriate building blocks of the system. Buttons can serve to trigger certain actions, like starting or stopping processes, or displaying results.
+### User Interface
+The Figura System is built from all engines, and user interaction is facilitated through the **Figura Vision** block. This block generates video content and creates the virtual persona of Figura AI, providing a user interface named "Figura" for users to interact with the system.
 
-In addition to the Tkinter library, Figura-AI could also consider further libraries like PyQt or Kivy for even more features and customization possibilities for designing its user interface. These libraries provide advanced widgets and functionalities, such as drag-and-drop support, animations, gesture control, and more, which can contribute to enhancing the user experience further and simplifying user interaction with the system.
+## Project Roadmap
 
-In summary, Figura-AI's architecture is designed to optimally utilize these diverse Python libraries and modules to create a powerful, flexible, and user-friendly AI system. It's not just capable of performing a wide array of AI functions, but also of combining and coordinating these functions in a way that effectively meets its users' requirements and goals.
+### Current Status (As of March 27, 2025)
+- **No Code or Files Yet**: The project is still in the planning phase.
+- **Future Plans**: Development of code and integration of building blocks across engines.
 
-Figura-AI and Modular's Mojo 🔥
-Figura-AI has chosen to leverage the cutting-edge capabilities of Modular's Mojo 🔥 for our open-source project. Mojo 🔥 is a high-performance stack and programming language specifically designed for AI acceleration and extensibility, and it provides powerful solutions to the challenges of AI development.
+### Future Milestones
+#### Q1 2026
+- Release of the initial version with basic functionalities.
+- Integration of primary engines and building blocks.
 
-About Mojo 🔥
-Mojo 🔥, developed by Modular Inc., offers an advanced AI stack that provides a single point of integration for AI frameworks, model and operator support, compiler transformations, and end-user tooling. It supports the ever-changing AI ecosystem, including dynamic shapes, sparsity, custom ops, and thousands of long-tail operators needed for compatibility.
+#### Q2 2026
+- Enhanced data analysis capabilities within IE.
+- Improved sequence management in SE.
 
-Moreover, Mojo 🔥 allows for easy extension and upgrading of your models with pre and post-processing operations. It offers kernel fusion, graph rewrites, and shape functions among other features, to enhance your model operations.
+#### Q3 2026
+- Implementation of advanced combination engine features.
+- User interface enhancements using Tkinter and Mojo.
 
-Why Mojo 🔥 in Figura-AI?
-The decision to integrate Mojo 🔥 into the Figura-AI project stems from the desire to provide the best performance, compatibility, and integration for users.
+#### Q4 2026
+- Integration of additional building blocks for specialized tasks.
+- Performance optimizations and scalability improvements.
 
-Performance
-Mojo 🔥 helps maximize performance and minimize costs. It is capable of reducing latency, increasing throughput, and improving resource efficiency across CPUs, GPUs, and accelerators. This enables us to productionize larger models and significantly reduce computing costs.
+## News
 
-Compatibility
-With Mojo 🔥, we can execute any model with full compatibility, eliminating the challenge of model conversion. It provides support for all native framework operators, dynamic shapes, low-precision, and existing custom operators.
+### Latest Updates
+- **March 27, 2025**: New version of the repository start page created and published.
 
-Integration
-The Modular software stack is designed to drop into our existing workflows and use cases. It integrates with industry-standard infrastructure and open-source tools to minimize migration cost. This ensures a seamless experience for our users and developers when working with the Figura-AI project.
+## Contribution Guidelines
 
-Get Started with Figura-AI and Mojo 🔥
-Getting started with Mojo 🔥 in the Figura-AI project is easy. Modular provide Jupyter notebooks and detailed documentation to help you learn about the capabilities and features of Mojo 🔥.
+We welcome contributions to enhance and extend Figura AI. Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines on how to contribute.
 
+## License
 
-Disclaimer: Please note that Mojo 🔥 is still in development and some features may be subject to changes.
+Figura AI is distributed under the GPL license. For more details, please see the [LICENSE](LICENSE) file.
 
+## Code of Conduct
 
+We aim to maintain an open and welcoming environment for all contributors. Please refer to the [Code_of_Conduct.md](CODE_OF_CONDUCT.md) file for further information.
 
-**Engines**
+## Contact
 
-CE (Core Engine): The heart of Figura-KI, it manages and controls the core AI processing capabilities.
+For any questions, suggestions, or issues, please create a ticket on GitHub. We appreciate your interest in Figura AI and look forward to your participation in enhancing this innovative project.
 
-SSASE (System-Sequence and Stability Engine): Responsible for ensuring the seamless execution, coordination, and stability of all processes within the system.
+## Repository Structure
+- **README.md**: Overview of the project.
+- **CONTRIBUTING.md**: Guidelines for contributing.
+- **LICENSE**: Project license.
+- **CODE_OF_CONDUCT.md**: Code of conduct for contributors.
+- **docs/**: Documentation for various components and modules.
+- **src/**: Source code files.
+- **tests/**: Test cases.
+- **docker/**: Dockerfiles and related configurations.
 
-IE (Investigation Engine): Entrusted with all autonomous data investigation and analysis within the system.
+## Wiki
+For more detailed information about Figura AI, visit the [Wiki Page](https://github.com/JanFriske/Figura-KI---Figura-AI/wiki).
 
-SE (Sequence Engine): Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
+---
 
-IE/SE (Combination Engine): A hybrid engine capable of both autonomous investigations and system process management.
-
-
-**Building Blocks**
-
-Each Engine comprises several Building Blocks, each responsible for a specialized function within the Figura-KI system. A detailed description of each Building Block's function and the Engine it belongs to can be found in the respective subdirectories, or on the Wiki-Page of this repository. Here's an overview of the Building Blocks:
-
-**CE (Core Engine):**
-
-Atlas: Manages core engine control and protection.
-
-Socrates: Handles ethical matters and ensures ethical compliance within the system.
-
-Solomon: Manages all legal issues within the system.
-
-Joshua: responsible for grace.
-
-Assisi: responsible for humility.
-
-**SSASE (System-Sequence and Stability Engine):**
-
-David: Terminates individual or all processes in the system.
-
-Goliath: Controls, coordinates, and maintains stability of all processes.
-
-Amschel: Ensures system resources such as RAM, database, or CPU power are adequately available.
-
-Monk: The block Monk is responsible for database management, ensuring data access and organization is seamless.
-
-Hermes: This block manages Figura-AI block communication System
-
-Kryptor: This block manages block communikation and database Encryption and decryption.
-
-Cerebro: Monitors and optimizes the system.
-
-Supermodel: Manages the ggml-model.bin files.
-
-Commissioner: Handles data compilation tasks.
-
-Brutus: Protects the system, able to apply brute force methods to remove malicious code.
-
-Arminius: Provides system protection.
-
-Lancelot: Provides system protection.
-
-Merlin: Provides system protection.
-
-Heracles: Provides system protection.
-
-Chronist: Logs system activity.
-
-Chronos: Manages time.
-
-Resonator: controlled monitors and controls intelligent resonance
-
-Stabilizer: stabilizes the overall system behavior of Figura.
-
-
-**IE (Investigation Engine):**
-
-Spector: Controls the Investigation Engine.
-
-Fugger: Handles economic analysis.
-
-Scout: Investigates the AI system.
-
-Chronovisor: Analyzes time courses.
-
-Janus: Investigates dualities.
-
-Polaris: Investigates polarities.
-
-ShinTsui: Investigates aesthetics.
-
-Hypocrates: Handles medical investigation.
-
-Prophet: Investigates purity.
-
-Schauberger: Researches water.
-
-Leonardo: Handles special research.
-
-Avé-Lallemant: police research.
-
-Sherlock: Handles convergent investigation.
-
-Owl: Contributes to wisdom.
-
-Architektus: Investigates architecture.
-
-Alnatura: Promotes environmental protection.
-
-Joda: Performs universal investigation.
-
-Copernicus: Investigates space.
-
-Thing: Resolves conflicts.
-
-Photon: Investigates light.
-
-Leibnitz: Contributes to mathematics.
-
-Lingua: Analyzes and outputs language.
-
-Radion: Investigates radiation.
-
-Freud: Performs psychoanalysis.
-
-Gastmann: Researches economics.
-
-Dana: Contributes to humanities.
-
-Hekate: Investigates extraordinary phenomena.
-
-Ying and Yang: Harmonizes the AI system.
-
-Poseidon: Manages and analyzes oceanographic and hydrosphere data.
-
-DaVinci: Assists in creative problem-solving.
-
-Galadriel: Conducts future forecasts and trend analyses.
-
-Rosalind: Analyzes genetic and biological data.
-
-Vulcan: Manages logic analysis and reasoning.
-
-Einstein: Solves complex mathematical and physical problems.
-
-Horus: Monitors and analyzes aerospace or atmospheric data.
-
-Gaia: Conducts environmental and ecosystem analysis.
-
-Fractalion: study of patterns and similarities in different dimensions and scales.
-
-**SE (Sequence Engine):**
-
-Mechlar: Controls the Sequence Engine.
-
-Blender: Handles holography tasks.
-
-Coder: Handles automatic programming tasks.
-
-Creator: Manages creation tasks.
-
-Demon: A service block.
-
-Daniel: A construction block.
-
-Figura-Vision: Video content generating block and producer of virtual person Figura AI
-
-
-**IE/SE (Combination Engine):**
-
-McGyver: Controls the Combination Engine.
-
-Tesla: Conducts technical investigation and creation tasks.
-
-Columbus: Handles navigation tasks.
-
-Nemo: Conducts marine research and navigation.
-
-Hunter: Protects copyright and trademarks.
-
-Ninja: Observes the system.
-
-Baumann: Manages design analysis and creation.
-
-Gutenberg: Processes and creates texts, reports, and documents.
-
-Inspector: validating block.
-
-Alchemist: responsible for substance testing of substances and substance compounds.
-
-Medicus: responsible for medical analysis and practice.
-
-Figura-Interface Block: the intelligent AI control of the Figura Interface.
-
-Samadhi: investigates multiple energy phenomena
-
-Aero: study and evaluation of airspace, air traffic and air navigation.
-
-**Contribution**
-
-We wholeheartedly welcome contributions to enhance and extend Figura-AI. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
-
-
-**License**
-
-Figura-AI is distributed under the GPL license. For more details, please see the LICENSE file.
-
-
-**Code of Conduct**
-
-We aim to maintain an open and welcoming environment for all who wish to contribute to our project. Please refer to the Code_of_Conduct.md file for further information.
-
-
-**Contact**
-
-For any further questions, suggestions, or issues, please create a ticket on Github. We appreciate your interest in Figura-AI and look forward to your participation in enhancing this innovative project.
+Join us on this exciting journey to build a sophisticated and versatile artificial intelligence system. Your contributions are invaluable in shaping the future of Figura AI!
 
 
 **Repository´s Wiki Page**
