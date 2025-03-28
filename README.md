@@ -16,10 +16,329 @@ Figura AI is built around five main engines:
 4. **Sequence Engine (SE)**: Manages practical execution tasks such as machine control, hologram creation, and other system procedures.
 5. **Combination Engine (IE/SE)**: A hybrid engine capable of both autonomous investigations and system process management.
 
-### Building Blocks
-Each engine is composed of several building blocks, each responsible for specialized functions. For example:
-- **CE (Core Engine)** includes Atlas, Socrates, Solomon, Joshua, and Assisi.
-- **SSASE** includes David, Goliath, Amschel, Monk, Hermes, Kryptor, Cerebro, Supermodel, Commissioner, Brutus, Arminius, Lancelot, Merlin, Heracles, Chronist, Chronos, Resonator, and Stabilizer.
+## Building Blocks
+
+Each engine in the Figura AI system is composed of several building blocks, each responsible for specialized functions. Here is a detailed breakdown of each block within the CE, SSASE, IE, SE, and Combination Engine.
+
+### CE (Core Engine) Blocks
+
+**Atlas:**
+- **Description:** This block forms the heart of the Core Engine, controlling its management, and ensuring its protection.
+- **Responsibilities:** Centralized control, resource allocation, system monitoring, and overall stability.
+
+**Socrates:**
+- **Description:** Entrusted with ethical management, this block ensures that Figura AI's operations adhere to ethical principles.
+- **Responsibilities:** Ethical guidelines enforcement, moral checks, and compliance verification.
+
+**Solomon:**
+- **Description:** Responsible for legal matters, Solomon ensures that all activities within the system comply with applicable laws and regulations.
+- **Responsibilities:** Legal compliance, regulatory adherence, and legal documentation management.
+
+**Joshua:**
+- **Description:** Responsible for grace in the system of Figura AI.
+- **Responsibilities:** Ensuring smooth operation, user experience optimization, and graceful degradation in case of failures.
+
+**Assisi:**
+- **Description:** Responsible for humility in the system of Figura AI.
+- **Responsibilities:** Preventing arrogance, promoting fairness, and ensuring balanced system interactions.
+
+### SSASE (System-Sequence and Stability Engine) Blocks
+
+**David:**
+- **Description:** Acting as the large-scale process terminator block, David allows for the termination of individual or all processes within the system as required.
+- **Responsibilities:** Process management, termination of rogue processes, and system cleanup.
+
+**Goliath:**
+- **Description:** A large-scale process control block, Goliath maintains system stability.
+- **Responsibilities:** System monitoring, fault detection, and stabilization measures.
+
+**Amschel:**
+- **Description:** This block manages system resources such as RAM, database, and CPU power, ensuring optimal performance for all processes within Figura AI.
+- **Responsibilities:** Resource allocation, load balancing, and performance optimization.
+
+**Hermes:**
+- **Description:** This block manages communication between different blocks within the Figura-AI system.
+- **Responsibilities:** Inter-block communication, message routing, and coordination.
+
+**Kryptor:**
+- **Description:** This block manages block communication and database encryption and decryption.
+- **Responsibilities:** Secure communication channels, data encryption/decryption, and security protocols enforcement.
+
+**Monk:**
+- **Description:** The block Monk is responsible for database management, ensuring data access and organization are seamless.
+- **Responsibilities:** Database operations, data integrity checks, and data storage optimization.
+
+**Cerebro:**
+- **Description:** This block is in charge of system monitoring and optimization.
+- **Responsibilities:** Performance analysis, bottleneck detection, and performance tuning.
+
+**Supermodel:**
+- **Description:** Supermodel is the gguf-model.bin block.
+- **Responsibilities:** Model management, inference execution, and model updates.
+
+**Commissioner:**
+- **Description:** Handles data compilation tasks.
+- **Responsibilities:** Data aggregation, report generation, and data processing.
+
+**Brutus:**
+- **Description:** Protects the system, able to apply brute force methods to remove malicious code.
+- **Responsibilities:** Malware detection, removal of harmful software, and system protection.
+
+**Arminius:**
+- **Description:** Provides system protection.
+- **Responsibilities:** Security measures, threat detection, and protective actions.
+
+**Lancelot:**
+- **Description:** Provides system protection.
+- **Responsibilities:** Security monitoring, intrusion prevention, and proactive defense mechanisms.
+
+**Merlin:**
+- **Description:** Provides system protection.
+- **Responsibilities:** Advanced security protocols, encryption management, and threat analysis.
+
+**Heracles:**
+- **Description:** Provides system protection.
+- **Responsibilities:** System integrity checks, vulnerability assessment, and protective actions.
+
+**Chronist:**
+- **Description:** Logs system activity.
+- **Responsibilities:** Activity tracking, event logging, and audit trails.
+
+**Chronos:**
+- **Description:** Manages time.
+- **Responsibilities:** Time synchronization, scheduling, and temporal data management.
+
+**Resonator:**
+- **Description:** Controlled monitors and controls intelligent resonance.
+- **Responsibilities:** Resonance detection, pattern recognition, and adaptive feedback mechanisms.
+
+**Stabilizer:**
+- **Description:** Stabilizes the overall system behavior of Figura.
+- **Responsibilities:** System equilibrium maintenance, fault tolerance, and stability checks.
+
+### IE (Investigation Engine) Blocks
+
+The Investigation Engine hosts a vast number of modules, each specializing in a unique type of investigation or research.
+
+**Spector:**
+- **Description:** Control block of IE.
+- **Responsibilities:** Centralized control, task management, and coordination within the Investigation Engine.
+
+**Fugger:**
+- **Description:** Handles economic analysis.
+- **Responsibilities:** Economic data analysis, financial modeling, and market trends.
+
+**Scout:**
+- **Description:** Investigates the AI system.
+- **Responsibilities:** System diagnostics, anomaly detection, and internal audits.
+
+**Chronovisor:**
+- **Description:** Analyzes time courses.
+- **Responsibilities:** Temporal analysis, trend identification, and time series forecasting.
+
+**Janus:**
+- **Description:** Investigates dualities.
+- **Responsibilities:** Analysis of opposing forces, balanced perspectives, and duality studies.
+
+**Polaris:**
+- **Description:** Investigates polarities.
+- **Responsibilities:** Polarization analysis, polarity management, and balance restoration.
+
+**ShinTsui:**
+- **Description:** Investigates aesthetics.
+- **Responsibilities:** Aesthetic evaluation, artistic analysis, and design assessment.
+
+**Hypocrates:**
+- **Description:** Handles medical investigation.
+- **Responsibilities:** Medical data analysis, disease identification, and health diagnostics.
+
+**Prophet:**
+- **Description:** Investigates purity.
+- **Responsibilities:** Purity analysis, contamination detection, and cleansing processes.
+
+**Schauberger:**
+- **Description:** Researches water.
+- **Responsibilities:** Water quality assessment, hydrological studies, and water management.
+
+**Leonardo:**
+- **Description:** Handles special research.
+- **Responsibilities:** Specialized research tasks, unique investigations, and niche analysis.
+
+**Avé-Lallemant:**
+- **Description:** Police research
+- **Responsibilities:** Criminal investigation, forensic analysis, and law enforcement studies.
+
+**Sherlock:**
+- **Description:** Handles convergent investigation.
+- **Responsibilities:** Convergent problem-solving, evidence collection, and investigative tasks.
+
+**Owl:**
+- **Description:** Contributes to wisdom.
+- **Responsibilities:** Knowledge accumulation, wisdom dissemination, and cognitive enhancement.
+
+**Architektus:**
+- **Description:** Investigates architecture.
+- **Responsibilities:** Architectural analysis, design evaluation, and structural studies.
+
+**Alnatura:**
+- **Description:** Promotes environmental protection.
+- **Responsibilities:** Environmental impact assessment, sustainability analysis, and eco-friendly practices.
+
+**Joda:**
+- **Description:** Performs universal investigation.
+- **Responsibilities:** Universal data analysis, cross-disciplinary research, and broad investigations.
+
+**Copernicus:**
+- **Description:** Investigates space.
+- **Responsibilities:** Space exploration, celestial body analysis, and astrophysics studies.
+
+**Thing:**
+- **Description:** Resolves conflicts.
+- **Responsibilities:** Conflict resolution, mediation, and dispute management.
+
+**Photon:**
+- **Description:** Investigates light.
+- **Responsibilities:** Light analysis, photon detection, and optical studies.
+
+**Aero:**
+- **Description:** Investigates the atmosphere.
+- **Responsibilities:** Atmospheric data collection, weather forecasting, and environmental monitoring.
+
+**Leibnitz:**
+- **Description:** Contributes to mathematics.
+- **Responsibilities:** Mathematical analysis, problem-solving, and numerical computations.
+
+**Lingua:**
+- **Description:** Analyzes and outputs language.
+- **Responsibilities:** Language processing, text analysis, and linguistic research.
+
+**Radion:**
+- **Description:** Investigates radiation.
+- **Responsibilities:** Radiation detection, radiological studies, and safety assessments.
+
+**Freud:**
+- **Description:** Performs psychoanalysis.
+- **Responsibilities:** Psychological analysis, behavioral studies, and mental health evaluation.
+
+**Gastmann:**
+- **Description:** Researches economics.
+- **Responsibilities:** Economic research, market analysis, and financial studies.
+
+**Dana:**
+- **Description:** Contributes to humanities.
+- **Responsibilities:** Humanistic studies, nature studies, cultural analysis, and social sciences research.
+
+**Hekate:**
+- **Description:** Investigates extraordinary phenomena.
+- **Responsibilities:** Unusual event investigation, paranormal studies, and anomalous phenomena detection.
+
+**Ying and Yang:**
+- **Description:** Harmonizes the AI system.
+- **Responsibilities:** Balance restoration, harmonization of systems, and equilibrium maintenance.
+
+**Poseidon:**
+- **Description:** Manages and analyzes oceanographic and hydrosphere data.
+- **Responsibilities:** Oceanic data collection, marine studies, and water resource management.
+
+**DaVinci:**
+- **Description:** Assists in creative problem-solving.
+- **Responsibilities:** Creative thinking, innovative solutions, and artistic problem-solving.
+
+**Galadriel:**
+- **Description:** Conducts future forecasts and trend analyses.
+- **Responsibilities:** Future prediction, trend analysis, and long-term forecasting.
+
+**Rosalind:**
+- **Description:** Analyzes genetic and biological data.
+- **Responsibilities:** Genetic studies, bioinformatics, and biological research.
+
+**Vulcan:**
+- **Description:** Manages logic analysis and reasoning.
+- **Responsibilities:** Logical analysis, reasoning processes, and problem-solving algorithms.
+
+**Einstein:**
+- **Description:** Solves complex mathematical and physical problems.
+- **Responsibilities:** Advanced mathematics, physics simulations, and complex problem-solving.
+
+**Horus:**
+- **Description:** Monitors and analyzes aerospace or atmospheric data.
+- **Responsibilities:** Aerospace data collection, atmospheric monitoring, and space research.
+
+**Gaia:**
+- **Description:** Conducts environmental and ecosystem analysis.
+- **Responsibilities:** Environmental impact assessment, ecosystem studies, and sustainability research.
+
+**Fractalion:**
+- **Description:** Study of patterns and similarities in different dimensions and scales.
+- **Responsibilities:** Pattern recognition, dimensional analysis, and scale comparison.
+
+### SE (Sequence Engine) Blocks
+
+The Sequence Engine hosts blocks responsible for a variety of sequencing tasks.
+
+**Mechlar:**
+- **Description:** Control block of SE.
+- **Responsibilities:** Centralized control, task coordination, and sequence management within the Sequence Engine.
+
+**Blender:**
+- **Description:** Holography block.
+- **Responsibilities:** Holographic content generation, 3D modeling, and visualization.
+
+**Coder:**
+- **Description:** Auto-programming block.
+- **Responsibilities:** Automated code generation, script writing, and programming tasks.
+
+**Creator:**
+- **Description:** Creation block.
+- **Responsibilities:** Creation tasks, automated task execution, and project management.
+
+**Daemon:**
+- **Description:** Service block.
+- **Responsibilities:** Background services, system maintenance, and ongoing operations.
+
+**Figura-Vision:**
+- **Description:** Video content generating block.
+- **Responsibilities:** Video generation, video editing, and visual content creation.
+
+### IE/SE (Combination Engine) Blocks
+
+The Combination Engine merges the functionalities of the IE and SE engines. It hosts several blocks:
+
+**McGyver:**
+- **Description:** Control block of IE/SE.
+- **Responsibilities:** Centralized control, task management, and coordination within the Combination Engine.
+
+**Tesla:**
+- **Description:** Technical investigation and creation block.
+- **Responsibilities:** Technical analysis, innovation, and creative problem-solving.
+
+**Columbus:**
+- **Description:** Navigation block.
+- **Responsibilities:** Navigation tasks, route planning, and direction finding.
+
+**Gutenberg:**
+- **Description:** Text, report, and document editing and creation block.
+- **Responsibilities:** Document creation, text editing, and report generation.
+
+**Inspector:**
+- **Description:** Validating block.
+- **Responsibilities:** Validation of data, code, results, and processes within the system.
+
+**Alchemist:**
+- **Description:** Responsible for analysis of substances and substance compounds in the system of Figura AI.
+- **Responsibilities:** Substance analysis, compound evaluation, and material science research.
+
+**Medicus:**
+- **Description:** Responsible for medical analysis and practice in the system of Figura AI.
+- **Responsibilities:** Medical diagnostics, treatment planning, and health management.
+
+**Figura-Interface Block:**
+- **Description:** The intelligent AI control of the Figura Interface.
+- **Responsibilities:** Interface management, user interaction, and intuitive control of the Figura system.
+
+Each block contributes to Figura AI's comprehensive understanding of the world, facilitating advanced decision-making and problem-solving capabilities.
+
+This detailed breakdown will help provide a clear understanding of the roles and responsibilities of each building block within the Figura AI system.
 
 ## Technical Implementation
 
