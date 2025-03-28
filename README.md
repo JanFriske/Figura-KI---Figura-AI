@@ -10,7 +10,7 @@ Figura AI is designed as a modular system, where each module performs a specific
 
 ### Introduction
 
-The advent of artificial intelligence (AI) has revolutionized various sectors and disciplines, transforming our perception of what was once thought to be exclusive to human cognition. From everyday applications like voice recognition and autonomous vehicles to sophisticated realms such as healthcare, finance, and fundamental research in physics and cosmology, AI's impact is undeniable. Figura AI, a theoretical model proposed by Jan Friske, builds on the capabilities of advanced AI systems like GPT-3.5 and GPT-4, aiming for an architecture that extends beyond existing paradigms.
+The advent of artificial intelligence (AI) has revolutionized various sectors and disciplines, transforming our perception of what was once thought to be exclusive to human cognition. From everyday applications like voice recognition and autonomous vehicles to sophisticated realms such as healthcare, finance, and fundamental research in physics and cosmology, AI's impact is undeniable. Figura AI, a theoretical model proposed by Jan Friske & Gwen Coder Instruct, builds on the capabilities of advanced AI systems like GPT-3.5 and GPT-4, aiming for an architecture that extends beyond existing paradigms.
 
 ### Theoretical Foundations
 
@@ -503,8 +503,63 @@ Figura AI is designed to run in environments with substantial computational powe
 - **Data Center**: Requires powerful hardware with multiple GPUs.
 - **Network Party**: Leverages a cluster of high-performance personal computers connected via a network.
 
-### User Interface
-The Figura System is built from all engines, and user interaction is facilitated through the **Figura Vision** block. This block generates video content and creates the virtual persona of Figura AI, providing a user interface named "Figura" for users to interact with the system.
+### Figura AI User Interface
+
+The Figura User Interface is a sophisticated and versatile component of the Figura-AI ecosystem, designed to facilitate seamless communication with users through multiple modalities. It consists of four specialized Communication Building Blocks: Gutenberg, Lingua, Figura Vision, and Blender. Each block serves a unique purpose, enabling different types of interaction to cater to diverse user needs.
+
+#### Communication Building Blocks Overview
+
+1. **Gutenberg**
+   - **Function**: Text Interface
+   - **Description**: Gutenberg provides text-based communication with the Figura-AI system. This includes input and output via text messages, chat interfaces, and document generation. It is ideal for users who prefer textual interaction or need to integrate with text-based systems without disturbing other modalities.
+   - **Use Cases**:
+     - Chatbots and conversational agents
+     - Document creation and editing
+     - Logging and reporting
+
+2. **Lingua**
+   - **Function**: Speech Interface
+   - **Description**: Lingua handles speech recognition and synthesis, enabling voice-based interaction with the Figura-AI system. Users can communicate through spoken commands and receive responses in natural language.
+   - **Use Cases**:
+     - Voice-controlled assistants
+     - Audio feedback and notifications
+     - Real-time transcription of audio input
+
+3. **Figura Vision**
+   - **Function**: Audio-Visual Interface
+   - **Description**: Figura Vision manages audio-visual communication, including video processing and display. It allows users to interact with the system through visual inputs like images and videos, and receive responses in audio-visual form.
+   - **Use Cases**:
+     - Video conferencing and remote assistance
+     - Visual recognition and analysis
+     - Augmented reality applications
+
+4. **Blender**
+   - **Function**: 3D Holographic Interface
+   - **Description**: Blender enables 3D holographic interaction, allowing users to engage with the Figura-AI system through three-dimensional visuals. This includes the creation and manipulation of virtual objects and scenes.
+   - **Use Cases**:
+     - Virtual reality experiences
+     - Interactive 3D modeling and design
+     - Holographic presentations and demonstrations
+
+#### Key Features
+
+- **Modularity**: Each Building Block is designed to operate independently, allowing for flexible integration based on user requirements. This modularity ensures that the system can adapt to evolving needs without requiring a complete overhaul.
+  
+- **Scalability**: The architecture supports seamless scaling, enabling the addition of new modules or enhancement of existing ones as technology advances.
+
+- **Interoperability**: Figura-AI's Building Blocks communicate efficiently through a well-defined API and network structure, ensuring smooth data flow and integration with other systems.
+
+#### Practical Applications
+
+- **Science and Research**: Efficient data processing, decision-making support, ethical considerations.
+- **Industrial Automation**: Precision control, resource optimization, threat detection.
+- **Medicine and Healthcare**: Accurate diagnostics, patient care management, drug discovery.
+- **Cybersecurity**: Threat detection, response strategies, ethical compliance.
+- **Environmental Sciences**: Data analysis, policy formulation, sustainability practices.
+
+#### Conclusion
+
+Figura-AI's innovative design leverages the power of modular, specialized Building Blocks to provide a versatile and efficient AI system. By offering multiple communication modalities through Gutenberg, Lingua, Figura Vision, and Blender, it caters to diverse user needs and addresses a wide range of applications across various sectors.
 
 ## Project Roadmap
 
