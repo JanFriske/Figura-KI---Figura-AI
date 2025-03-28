@@ -496,13 +496,38 @@ networks:
     driver: bridge
 ```
 
-### System Requirements
-Figura AI is designed to run in environments with substantial computational power, typically a data center or an experimental network party of enthusiasts and tech-savvy friends. Each model, specifically tuned for each block, must be loaded into the GPU's memory due to the performance benefits of GPU-based computations.
+## System Requirements
 
-#### Infrastructure Considerations:
-- **Data Center**: Requires powerful hardware with multiple GPUs.
-- **Network Party**: Leverages a cluster of high-performance personal computers connected via a network.
+Figura AI is designed to run in environments with substantial computational power, typically a data center or an experimental network party of enthusiasts and tech-savvy friends. Each model, specifically tuned for each block, must be loaded into the GPU's memory due to the performance benefits of GPU-based computations. Additionally, Figura AI can be deployed over the internet using VPN or tunneling technologies, allowing participants to run models on their local machines while maintaining a cohesive cluster.
 
+### Infrastructure Considerations
+
+#### Data Center
+- **Hardware Requirements**: Powerful hardware with multiple GPUs.
+- **Network Configuration**: High-speed internal networking to ensure low-latency communication between nodes.
+
+#### Network Party
+- **Leverages a Cluster of High-Performance Personal Computers**:
+  - Each participant runs a model on their local machine, specifically tuned for each block.
+  - Models communicate via a network, typically connected directly or over a VPN.
+  
+#### Internet-Based Deployment
+- **VPN or Tunneling**: Allows participants to run models on their local machines while maintaining a cohesive cluster over the internet.
+- **Model Distribution**:
+  - Each participant runs a model that corresponds to a specific function within an Engine (e.g., Core Engine, Investigation Engine).
+  - Models communicate via secure and reliable internet connections using VPN or tunneling technologies.
+- **Scalability**: The system can scale by adding more machines running models in the Figura AI architecture, allowing for distributed processing and enhanced performance.
+
+By leveraging VPNs or tunneling technologies, Figura AI can be effectively run over the internet, enabling a flexible and scalable deployment across multiple personal computers. This approach allows participants to contribute their computational resources without the need for physical colocation, making it accessible and practical for a wide range of users.
+
+### Technical Details
+
+- **VPN Configuration**: Set up a secure VPN network using tools like OpenVPN or WireGuard to ensure encrypted communication between nodes.
+- **Tunneling Protocols**: Use protocols such as SSH tunneling or IPsec for additional security and reliability.
+- **Containerization**: Deploy models using Docker containers to ensure consistency and ease of management across different machines.
+- **Kafka Messaging**: Utilize Apache Kafka for real-time data streaming and communication between containers, ensuring efficient message passing over the network.
+
+This setup ensures that Figura AI can be effectively deployed and managed in a distributed manner, leveraging the computational power of multiple personal computers to achieve high performance and reliability.
 ### Figura AI User Interface
 
 The Figura User Interface is a sophisticated and versatile component of the Figura-AI ecosystem, designed to facilitate seamless communication with users through multiple modalities. It consists of four specialized Communication Building Blocks: Gutenberg, Lingua, Figura Vision, and Blender. Each block serves a unique purpose, enabling different types of interaction to cater to diverse user needs.
