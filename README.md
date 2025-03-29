@@ -418,7 +418,7 @@ For communication between modules, an event-driven architecture based on Apache 
 
 ### Integration of Blocks into Engines
 
-#### Core Engine (CE)
+#### CE (Core Engine) 
 
 The Core Engine consists of five core blocks: Atlas, Sokrates, Salomo, Jehosua, and Assisi. These modules are each deployed as Docker containers and organized within the Kubernetes structure. Atlas acts as the central control unit for information storage and distribution, while Sokrates performs moral checks and Salomo conducts legal controls. Jehosua ensures smooth user experience, and Assisi promotes balanced system interactions.
 
@@ -426,15 +426,15 @@ The Core Engine consists of five core blocks: Atlas, Sokrates, Salomo, Jehosua, 
 
 The SSASE includes containers like Amschel and Stability Cerebro. These modules are also deployed as Docker containers and orchestrated by Kubernetes. The Sequence Manager monitors process flows, while the Stability Monitor detects anomalies and takes stability measures.
 
-#### Investigation Engine (IE)
+#### IE (Investigation Engine) 
 
 The IE comprises specialized modules such as Spector, Fugger, and Scout. Each module has a unique task, from central control through the Spector to economic data analysis via Fugger. These blocks are deployed as Docker containers and communicate over Kafka topics.
 
-#### Sequence Engine (SE)
+#### SE (Sequence Engine) 
 
 The SE includes containers like Mechlar, Blender, and Coder. These modules automate various tasks, from generating holographic content to creating visual content through the Figura-Vision block. These blocks are also deployed as Docker containers and orchestrated.
 
-#### Combination Engine (IE/SE)
+#### IE/SE (Combination Engine) 
 
 The IE/SE integrates the functions of the IE and SE to solve complex tasks. It contains blocks like McGyver, Tesla, and Columbus for technical analysis and innovation as well as navigation tasks. These blocks are also deployed as Docker containers.
 
@@ -590,6 +590,7 @@ By leveraging VPNs or tunneling technologies, Figura AI can be effectively run o
 - **Kafka Messaging**: Utilize Apache Kafka for real-time data streaming and communication between containers, ensuring efficient message passing over the network.
 
 This setup ensures that Figura AI can be effectively deployed and managed in a distributed manner, leveraging the computational power of multiple personal computers to achieve high performance and reliability.
+
 ### Figura AI User Interface
 
 The Figura User Interface is a sophisticated and versatile component of the Figura-AI ecosystem, designed to facilitate seamless communication with users through multiple modalities. It consists of four specialized Communication Building Blocks: Gutenberg, Lingua, Figura Vision, and Blender. Each block serves a unique purpose, enabling different types of interaction to cater to diverse user needs.
@@ -627,6 +628,9 @@ The Figura User Interface is a sophisticated and versatile component of the Figu
      - Virtual reality experiences
      - Interactive 3D modeling and design
      - Holographic presentations and demonstrations
+
+Example Application:
+For a demonstration of how the Blender building block can be used in various applications, please refer to the following YouTube video: [Blender Building Block Action Example](https://youtu.be/dxJe3Y0inUA?si=sOK3Skxxlw7UuWfn)
 
 #### Key Features
 
