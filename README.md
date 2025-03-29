@@ -693,17 +693,16 @@ We aim to maintain an open and welcoming environment for all contributors. Pleas
 For any questions, suggestions, or issues, please create a ticket on GitHub. We appreciate your interest in Figura AI and look forward to your participation in enhancing this innovative project.
 
 ## Repository Structure
-- **CONTRIBUTING.md**: Guidelines for contributing.
-- **LICENSE**: Project license.
-- **README.md**: Overview of the project.
-- **CODE_OF_CONDUCT.md**: Code of conduct for contributors.
 
+    • CONTRIBUTING.md: Guidelines for contributing.
+    • CODE_OF_CONDUCT.md: Code of conduct for contributors.
+    • LICENSE: Project license.
+    • README.md: Overview of the project.
 Comming soon:
-
-- **docs/**: Documentation for various components and modules.
-- **src/**: Source code files.
-- **tests/**: Test cases.
-- **docker/**: Dockerfiles and related configurations.
+    • docs/: Documentation for various components and modules.
+    • src/: Source code files.
+    • tests/: Test cases.
+    • docker/: Dockerfiles and related configurations.
 
 ## Wiki
 For more detailed information about Figura AI, visit the [Wiki Page](https://github.com/JanFriske/Figura-KI---Figura-AI/wiki).
@@ -711,9 +710,4 @@ For more detailed information about Figura AI, visit the [Wiki Page](https://git
 ---
 
 Join us on this exciting journey to build a sophisticated and versatile artificial intelligence system. Your contributions are invaluable in shaping the future of Figura AI!
-
-
-**Repository´s Wiki Page**
-
-Also check out the wiki page of this repository. There you can find more information about the concept of Figura-AI.
 
