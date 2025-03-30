@@ -94,7 +94,7 @@ Each engine in the Figura AI system is composed of several building blocks, each
 - **Description:** Responsible for legal matters, Solomon ensures that all activities within the system comply with applicable laws and regulations.
 - **Responsibilities:** Legal compliance, regulatory adherence, and legal documentation management.
 
-**Joshua:**
+**Jehoshua:**
 - **Description:** Responsible for grace in the system of Figura AI.
 - **Responsibilities:** Ensuring smooth operation, user experience optimization, and graceful degradation in case of failures.
 
