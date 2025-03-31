@@ -422,7 +422,7 @@ For communication between modules, an event-driven architecture based on Apache 
 
 The Core Engine consists of five core blocks: Atlas, Sokrates, Salomo, Jehosua, and Assisi. These modules are each deployed as Docker containers and organized within the Kubernetes structure. Atlas acts as the central control unit for information storage and distribution, while Sokrates performs moral checks and Salomo conducts legal controls. Jehosua ensures smooth user experience, and Assisi promotes balanced system interactions.
 
-#### SSASE (System Stability and Sequence)
+#### SSASE (System Stability and Sequence Enginge)
 
 The SSASE includes containers like Amschel and Stability Cerebro. These modules are also deployed as Docker containers and orchestrated by Kubernetes. The Sequence Manager monitors process flows, while the Stability Monitor detects anomalies and takes stability measures.
 
